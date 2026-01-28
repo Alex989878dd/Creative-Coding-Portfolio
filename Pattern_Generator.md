@@ -30,6 +30,7 @@ circleSize[i][j] = random(w/6, w/2.5);
 }
 ```
 Then, using the `random()` and `colour()` functions, I made the background colours of the square and round tiles random.
+
 ```
 bg = colour(random(0, 255), random(0, 255), random(0, 255));
 rectBG = colour(random(0, 255), random(0, 255), random(0, 255));
@@ -48,4 +49,7 @@ As a result, the tiles have different rotation angles, unique colours and shapes
 
 ## Reflection
 
+I managed to create a unique pattern generator that makes it fun to try out new colours and shapes. Each time you launch the program, there is a pleasant spinning animation, and then you can influence the result using the mouse.
+The key to achieving this result was the use of matrices, nested loops, and the `random()` function.
+I was unable to create the animated pattern I originally wanted, as I focused more on the ability to change the finished pattern.
 
